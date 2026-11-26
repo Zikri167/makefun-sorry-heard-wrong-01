@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Sorry \u2014 I heard 'wake me at seven' as 'make me a reverend,' so I ordained you at dawn. Your alarm is set. Your flock is waiting.";
+  "Sorry \u2014 I heard 'set a timer for pasta' as 'set a timer for NASA.' Houston has been informed. Your spaghetti is now a federal matter.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE + "\n", "utf8");
